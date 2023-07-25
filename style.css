@@ -1,0 +1,72 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.top-box {
+    width: 400px;
+    background-color: black;
+    padding: 20px;
+}
+
+.feed {
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    font-weight: 700;
+}
+
+.col1 {
+    flex: 1;
+    height: 400px;
+}
+
+.profile {
+    /* height: ; */
+}
+
+.col2 {
+    flex: 2;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+
+.right-1 {
+    width: 40%;
+    border: 2px solid black;
+    padding: 20px;
+    margin: 20px;
+    font-size: 1.2rem;
+}
+
+.likes-1 {
+    height: 40px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-bottom: 30px;
+}
+
+.right-1 h2 {
+    margin-top: 10px;
+    margin-left: 10px;
+}
+
+.like-btn {
+    padding: 5px 10px;
+    box-shadow: 4px 4px black;
+    background-color: #ffd966;
+    color: black;
+    border: 2px solid black;
+    margin-left: 20px;
+    font-size: 1.2rem;
+    cursor: pointer;
+}
+
+.right-1 p {
+    margin-top: 140px;
+}
+
